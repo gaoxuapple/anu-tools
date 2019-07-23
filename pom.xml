@@ -252,6 +252,18 @@
       <!-- WEB end -->
 
 
+      <dependency>
+          <groupId>com.oracle</groupId>
+          <artifactId>ojdbc8</artifactId>
+          <version>12.2.0.1.0</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.apache.poi</groupId>
+          <artifactId>poi</artifactId>
+          <version>4.1.0</version>
+      </dependency>
+
       <!-- bean validate -->
       <!--<dependency>
           <groupId>org.hibernate</groupId>
@@ -279,6 +291,7 @@
           <artifactId>druid</artifactId>
           <version>${druid.version}</version>
       </dependency>
+
 
       <!-- jdbc driver begin -->
       <!--<dependency>
